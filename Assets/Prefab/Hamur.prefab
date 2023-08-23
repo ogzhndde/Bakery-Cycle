@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7817807632183047497}
   - component: {fileID: 2448029823493098160}
+  - component: {fileID: 6816263583453948200}
   m_Layer: 0
   m_Name: Hamur
   m_TagString: Untagged
@@ -24,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7437059483444703219}
-  m_LocalRotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -52,7 +53,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ae31fa36f59a36c4587bdaac94140af4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85,3 +86,18 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.03249034, y: 0.017518742, z: 0.03373296}
   m_DirtyAABB: 0
+--- !u!114 &6816263583453948200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437059483444703219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c19aa15c32c544439d8fc1c5fb14154, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breadStateEnum: 0
+  MAT_Hamur: {fileID: 2100000, guid: a642055b2d203e94bad887801e27ee78, type: 2}
+  MAT_Ekmek: {fileID: 2100000, guid: ae31fa36f59a36c4587bdaac94140af4, type: 2}
